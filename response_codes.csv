@@ -1,0 +1,249 @@
+﻿Code,Message
+20001,"Issuer decline - Refer to card issuer, Contact card issuer 发卡机构拒绝 - 请联系卡发卡机构"
+20002,Issuer decline - Refer to card issuer - Special conditions 发卡机构拒绝 - 根据发卡机构 - 特殊条件
+20003,Issuer decline - Invalid merchant or service provider 发卡机构拒绝 - 对商家或MCC限制
+20004,Issuer decline - Card should be captured 发卡机构拒绝 - 应捕获卡
+20005,"Issuer decline - Declined - Do not honour, https://www.checkout.com/docs/developer-resources/codes/api-response-codes#Declined_-_Do_not_honour 发卡机构拒绝 - 触发银行风控，请见：https://www.checkout.com/docs/developer-resources/codes/api-response-codes#Declined_-_Do_not_honour"
+20006,Issuer decline - Error / Invalid request parameters 发卡机构拒绝 - 错误/无效的请求参数
+20009,Issuer decline - Request in progress 发卡机构拒绝 - 请求正在进行中
+20012,Issuer decline - Invalid transaction 发卡机构拒绝 - 交易无效
+20013,Issuer decline - Invalid value/amount 发卡机构拒绝 - 无效的值/金额
+20014,Issuer decline - Invalid account number (no such number) 发卡机构拒绝 - 账号无效（无此号码）
+20015,Issuer decline - Transaction cannot be processed through debit network. 发卡机构拒绝 - 交易无法通过借记网络处理。
+20016,Issuer decline - Card not initialised 发卡机构拒绝 - 卡未初始化
+20017,Issuer decline - Customer cancellation 发卡机构拒绝 - 客户取消
+20018,Issuer decline - Customer dispute 发卡机构拒绝 - 客户争议
+20019,"Issuer decline - Re-enter transaction, Transaction has expired 发卡机构拒绝 - 重新进入交易，交易已过期"
+20020,Issuer decline - Invalid response 发卡机构拒绝 - 响应无效
+20021,Issuer decline - No action taken (unable to back out prior transaction) 发卡机构拒绝 - 未采取任何措施（无法撤回之前的事务）
+20022,Issuer decline - Suspected malfunction 发卡机构拒绝 - 疑似故障
+20023,Issuer decline - Unacceptable transaction fee 发卡机构拒绝 - 不可接受的交易费用
+20024,Issuer decline - File update not supported by the receiver 发卡机构拒绝 - 接收方不支持文件更新
+20025,"Issuer decline - Unable to locate record on file, Account number is missing from the inquiry 发卡机构拒绝 - 找不到存档的记录，查询中缺少账号"
+20026,Issuer decline - Duplicate file update record 发卡机构拒绝 - 重复的文件更新记录
+20027,Issuer decline - File update field edit error 发卡机构拒绝 - 文件更新字段编辑错误
+20028,Issuer decline - File is temporarily unavailable 发卡机构拒绝 - 文件暂时不可用
+20029,Issuer decline - File update not successful 发卡机构拒绝 - 文件更新未成功
+20030,Issuer decline - Format error 发卡机构拒绝 - 格式错误
+20031,Issuer decline - Bank not supported by Switch 发卡机构拒绝 - Switch 不支持银行
+20032,Issuer decline - Completed partially 发卡机构拒绝 - 部分完成
+20033,Issuer decline - Previous scheme transaction ID invalid 发卡机构拒绝 - 以前的卡组交易 ID （scheme ID）无效
+20038,Issuer decline - Allowable PIN tries exceeded 发卡机构拒绝 - 超出允许的 PIN 尝试次数
+20039,Issuer decline - No credit account 发卡机构拒绝 - 无信用账户
+20040,Issuer decline - Requested function not supported 发卡机构拒绝 - 不支持请求的功能
+20042,Issuer decline - No universal value/amount 发卡机构拒绝 - 无通用价值/金额
+20044,Issuer decline - No investment account 发卡机构拒绝 - 无投资账户
+20045,Issuer decline - The Issuer does not support fallback transactions of hybrid-card 发卡机构拒绝 - 发卡机构不支持混合卡的回退交易
+20046,Issuer decline - Bank decline 发卡机构拒绝 - 银行拒绝
+20051,Issuer decline - Insufficient funds 发卡机构拒绝 - 资金不足
+20052,Issuer decline - No current (checking) account 发卡机构拒绝 - 无当前账户
+20053,Issuer decline - No savings account 发卡机构拒绝 - 无储蓄账户
+20054,Issuer decline - Expired card 发卡机构拒绝 - 卡过期
+20055,"Issuer decline - Incorrect PIN, PIN validation not possible 发卡机构拒绝 - PIN 码不正确，无法进行 PIN 验证"
+20056,Issuer decline - No card record 发卡机构拒绝 - 无卡记录
+20057,"Issuer decline - Transaction not permitted to cardholder, Domestic debit transaction not allowed (Regional use only) 发卡机构拒绝 - 持卡人不允许交易，不允许国内借记交易（仅限区域使用）"
+20058,Issuer decline - Transaction not permitted to terminal 发卡机构拒绝 - 不允许交易
+20059,Issuer decline - Suspected fraud 发卡机构拒绝 - 涉嫌欺诈
+20060,Issuer decline - Card acceptor contact acquirer 发卡机构拒绝 - 商户请联系收单方
+20061,Issuer decline - Activity amount limit exceeded 发卡机构拒绝 - 超出活动金额限制
+20062,Issuer decline - Restricted card 发卡机构拒绝 - 受限卡
+20063,Issuer decline - Security violation 发卡机构拒绝 - 安全违规
+20064,Issuer decline - Transaction does not fulfil AML requirement 发卡机构拒绝 - 交易不符合反洗钱要求
+20065,Issuer decline - Exceeds Withdrawal Frequency Limit 发卡机构拒绝 - 超过提款频率限制
+20066,Issuer decline - Card acceptor call acquirer security 发卡机构拒绝 - 商户请联系收单行安全部门
+20067,Issuer decline - Hard capture - Pick up card at ATM 发卡机构拒绝 - 硬捕获 - 在 ATM 上领取卡
+20068,"Issuer decline - Response received too late / Timeout, Internal error 发卡机构拒绝 - 收到响应的时间太晚/超时、内部错误"
+20072,Issuer decline - Account not yet activated 发卡机构拒绝 - 帐户尚未激活
+20075,Issuer decline - Allowable PIN-entry tries exceeded 发卡机构拒绝 - 已超过允许的 PIN 输入尝试次数
+20078,Issuer decline - Blocked at first use - transaction from new or replacement card that is not properly unblocked 发卡机构拒绝 - 首次使用时被阻止 - 交易来自未正确激活的新卡或替换卡
+20081,Issuer decline - Card is local use only 发卡机构拒绝 - 卡仅限本地使用
+20082,"Issuer decline - No security model, PIN cryptographic error found (error found by VIC security module during PIN decryption), Wrong CAM, dCVV, iCVV, or CVV results 发卡机构拒绝 - 无安全模型、发现 PIN 加密错误（在 PIN 解密期间 VIC 安全模块发现错误）、错误的 CAM、dCVV、iCVV 或 CVV 结果"
+20083,Issuer decline - No accounts 发卡机构拒绝 - 无账户
+20084,Issuer decline - No PBF 发卡机构拒绝 - 无 PBF
+20085,Issuer decline - PBF update error 发卡机构拒绝 - PBF 更新错误
+20086,"Issuer decline - ATM malfunction, Invalid authorization type 发卡机构拒绝 - ATM 故障，授权类型无效"
+20087,Issuer decline - Bad track data (invalid CVV and/or expiry date) 发卡机构拒绝 - 跟踪数据不良（CVV 和/或到期日无效）
+20088,Issuer decline - Unable to dispense/process 发卡机构拒绝 - 无法分配/处理
+20089,Issuer decline - Administration error 发卡机构拒绝 - 管理错误
+20090,Issuer decline - Cut-off in progress 发卡机构拒绝 - 截止进行中
+20091,Issuer decline - Issuer unavailable or switch is inoperative 发卡机构拒绝 - 发卡机构不可用或 switch 不起作用
+20092,Issuer decline - Destination cannot be found for routing 发卡机构拒绝 - 找不到路由目标
+20093,Issuer decline - Transaction cannot be completed; violation of law 发卡机构拒绝 - 交易无法完成，违法行为
+20094,Issuer decline - Duplicate transmission / invoice 发卡机构拒绝 - 重复传输/发票
+20095,Issuer decline - Reconcile error 发卡机构拒绝 - 对帐错误
+20096,Issuer decline - System malfunction 发卡机构拒绝 - 系统故障
+20097,Issuer decline - Reconciliation totals reset 发卡机构拒绝 - 对账总额重置
+20098,Issuer decline - MAC error 发卡机构拒绝 - MAC 错误
+20099,Issuer decline - Other / Unidentified responses 发卡机构拒绝 - 其他 / 未识别的响应
+20197,Issuer decline - The ATM/POS terminal number has not been registered 发卡机构拒绝 - 尚未注册 ATM/POS 终端号码
+2005C,Issuer decline - Transaction not supported / blocked by issuer 发卡机构拒绝 - 发卡机构不支持/阻止交易
+2006P,Issuer decline - Cardholder ID verification failed 发卡机构拒绝 - 持卡人 ID 验证失败
+2009G,Issuer decline - Blocked by cardholder / contact cardholder 发卡机构拒绝 - 被持卡人/联系人阻止
+200A4,"Issuer decline - Transaction with defect, contact issuer 发卡机构拒绝 - 存在缺陷的交易，请联系发卡机构"
+200A5,Issuer decline - The original transactions are rejected. 发卡机构拒绝 - 原始交易被拒绝。
+200A6,"Issuer decline - UnionPay forwarded the original request, but did not receive a response from the issuer. 发卡机构拒绝 - 银联转发了原始请求，但未收到发卡行的响应。"
+200E0,Issuer decline - Unauthorised access 发卡机构拒绝 - 未经授权的访问
+200E2,Issuer decline - Signature verification failure 发卡机构拒绝 - 签名验证失败
+200E3,"Issuer decline - System busy, please try again later 发卡机构拒绝 - 系统繁忙，请稍后重试"
+200N0,Issuer decline - Force STIP 发卡机构拒绝 - 强制 STIP
+200N7,Issuer decline - Decline for CVV2 failure 发卡机构拒绝 - CVV2 失败的拒绝
+200O5,Issuer decline - PIN required 发卡机构拒绝 - 需要 PIN 码
+200P1,Issuer decline - Over daily limit 发卡机构拒绝 - 超过每日限额
+200P9,Issuer decline - Limit exceeded. Enter a lesser value. 发卡机构拒绝 - 超出限制。输入较小的值。
+200R1,Issuer decline - Issuer initiated a stop payment (revocation order) for this authorization 发卡机构拒绝 - 发卡机构为此授权发起了停止付款（撤销令）
+200R3,Issuer decline - Issuer initiated a stop payment (revocation order) for all authorizations 发卡机构拒绝 - 发卡机构针对所有授权发起了停止付款（撤销令）
+200S4,Issuer decline - PTLF full 发卡机构拒绝 - PTLF 已满
+200T2,Issuer decline - Invalid transaction date 发卡机构拒绝 - 交易日期无效
+200T3,Issuer decline - Card not supported 发卡机构拒绝 - 不支持卡
+200T5,Issuer decline - CAF status = 0 or 9 发卡机构拒绝 - CAF 状态 = 0 或 9
+20100,Issuer decline - Invalid expiry date format 发卡机构拒绝 - 无效的到期日期格式
+20101,Issuer decline - No Account / No Customer (Token is incorrect or invalid) 发卡机构拒绝 - 无帐户/无客户（令牌不正确或无效）
+20102,Issuer decline - Invalid merchant / wallet ID 发卡机构拒绝 - 商家/钱包 ID 无效
+20103,Issuer decline - Card type / payment method not supported 发卡机构拒绝 - 不支持卡类型/付款方式
+20104,Issuer decline - Gateway reject - Invalid transaction 发卡机构拒绝 - 网关拒绝 - 无效交易
+20105,Issuer decline - Gateway reject - Violation 发卡机构拒绝 - 网关拒绝 - 违规
+20106,Issuer decline - Unsupported currency 发卡机构拒绝 - 不支持的货币
+20107,Issuer decline - Billing address is missing 发卡机构拒绝 - 账单地址缺失
+20108,Issuer decline - Declined - Updated cardholder available 发卡机构拒绝 - 已拒绝 - 更新的持卡人可用
+20109,"Issuer decline - Transaction already reversed (voided); Previous message located for a repeat or reversal, but repeat or reversal data is inconsistent with the original message; Capture is larger than initial authorized value 发卡机构拒绝 - 交易已撤销（作废）；找到重复或撤消的上一条消息，但重复或撤消数据与原始消息不一致；捕获大于初始授权值"
+20110,Issuer decline - Authorization completed 发卡机构拒绝 - 授权已完成
+20111,Issuer decline - Transaction already reversed 发卡机构拒绝 - 交易已撤销
+20112,Issuer decline - Merchant not Mastercard SecureCode enabled 发卡机构拒绝 - 商家未启用 Mastercard SecureCode
+20113,Issuer decline - Invalid property 发卡机构拒绝 - 无效属性
+20114,Issuer decline - Token is incorrect 发卡机构拒绝 - 令牌不正确
+20115,Issuer decline - Missing / Invalid lifetime 发卡机构拒绝 - 缺失/无效的生存期
+20116,Issuer decline - Invalid encoding 发卡机构拒绝 - 编码无效
+20117,Issuer decline - Invalid API version 发卡机构拒绝 - API 版本无效
+20118,Issuer decline - Transaction pending 发卡机构拒绝 - 交易待处理
+20119,Issuer decline - Invalid batch data and/or batch data is missing 发卡机构拒绝 - 批次数据无效和/或缺少批次数据
+20120,Issuer decline - Invalid customer/user 发卡机构拒绝 - 无效的客户/用户
+20121,Issuer decline - Transaction limit for merchant/terminal exceeded 发卡机构拒绝 - 超出商户/终端的交易限额
+20122,Issuer decline - Mastercard installments not supported 发卡机构拒绝 - 不支持 Mastercard 分期付款
+20123,"Issuer decline - Missing basic data: zip, addr, member 发卡机构拒绝 - 缺少基本数据：zip、addr、member"
+20124,"Issuer decline - Missing CVV value, required for ecommerce transaction 发卡机构拒绝 - 缺少电子商务交易所需的 CVV 值"
+20150,Issuer decline - Card not 3D Secure (3DS) enabled 发卡机构拒绝 - 卡未启用 3DS 验证 （3DS）
+20151,Issuer decline - Cardholder failed 3DS authentication 发卡机构拒绝 - 持卡人未通过 3DS 身份验证
+20152,Issuer decline - Initial 3DS transaction not completed within 15 minutes 发卡机构拒绝 - 初始 3DS 交易未在 15 分钟内完成
+20153,Issuer decline - 3DS system malfunction 发卡机构拒绝 - 3DS 系统故障
+20154,Issuer decline - 3DS authentication required 发卡机构拒绝 - 需要 3DS 身份验证
+20155,Issuer decline - 3DS authentication service provided invalid authentication result 发卡机构拒绝 - 3DS 身份验证服务提供的身份验证结果无效
+20156,Issuer decline - Requested function not supported by the acquirer 发卡机构拒绝 - 收单行不支持请求的函数
+20157,Issuer decline - Invalid merchant configurations - Contact Support 发卡机构拒绝 - 商家配置无效 - 联系支持人员
+20158,Issuer decline - Refund validity period has expired 发卡机构拒绝 - 退款有效期已过期
+20159,Issuer decline - ACS Malfunction 发卡机构拒绝 - ACS 故障
+20179,Issuer decline - Lifecycle 发卡机构拒绝 - 生命周期，交易包含无效卡信息
+20182,Issuer decline - Policy 发卡机构拒绝 - 交易不符合卡政策
+20183,Issuer decline - Security 发卡机构拒绝 - 安全问题，交易疑似欺诈
+20193,Issuer decline - Invalid country code 发卡机构拒绝 - 国家/地区代码无效
+30004,Issuer decline - Pick up card (No fraud) 发卡机构拒绝 - 捡到的卡（无欺诈）
+30007,Issuer decline - Pick up card - Special conditions 发卡机构拒绝 - 捡到的卡 - 特殊情况
+30015,Issuer decline - No such issuer 发卡机构拒绝 - 无此类 发卡机构
+30016,Issuer decline - Issuer does not allow online gambling payout 发卡机构拒绝 - 发卡机构不允许在线赌博支付
+30017,Issuer decline - Issuer does not allow original credit transaction 发卡机构拒绝 - 发卡行不允许原始信用交易
+30018,Issuer decline - Issuer does not allow money transfer payout 发卡机构拒绝 - 发卡行不允许转账支付
+30019,Issuer decline - Issuer does not allow non-money transfer payout 发卡机构拒绝 - 发卡行不允许非转账支付
+30020,Issuer decline - Invalid amount 发卡机构拒绝 - 无效金额
+30021,Issuer decline - Total amount limit reached 发卡机构拒绝 - 达到总金额限制
+30022,Issuer decline - Total transaction count limit reached 发卡机构拒绝 - 已达到总交易计数限制
+30033,Issuer decline - Expired card - Pick up 发卡机构拒绝 - 过期卡
+30034,Issuer decline - Suspected fraud - Pick up 发卡机构拒绝 - 疑似欺诈
+30035,Issuer decline - Contact acquirer - Pick up 发卡机构拒绝 - 联系收单行
+30036,Issuer decline - Restricted card - Pick up 发卡机构拒绝 - 受限卡
+30037,Issuer decline - Call acquirer security - Pick up 发卡机构拒绝 - 看涨收单行安全
+30038,Issuer decline - Allowable PIN tries exceeded - Pick up 发卡机构拒绝 - 超过允许的 PIN 尝试次数
+30041,Issuer decline - Lost card - Pick up 发卡机构拒绝 - 丢失卡
+30043,Issuer decline - Stolen card - Pick up 发卡机构拒绝 - 卡被盗
+30044,Issuer decline - Transaction rejected - AMLD5 发卡机构拒绝 - 交易被拒绝 - AMLD5
+30045,Issuer decline - Invalid payout fund transfer type 发卡机构拒绝 - 收款资金转账类型无效
+30046,Issuer decline - Closed account 发卡机构拒绝 - 已关闭账户
+40101,Risk blocked transaction - Please check the triggered rules in Dashboard 风控阻止交易 - 请在Dashboard查看触发规则
+40201,Gateway reject - card number blocklist 网关拒绝 - 卡号黑名单
+40202,Gateway reject - IP address blocklist 网关拒绝 - IP 地址黑名单
+40203,Gateway reject - email blocklist 网关拒绝 - 电子邮件黑名单
+40204,Gateway reject - phone number blocklist 网关拒绝 - 电话号码黑名单
+40205,Gateway Reject - BIN number blocklist 网关拒绝 - BIN 号黑名单
+41101,Client-level Risk Blocked Transaction - Please check the triggered rules in Dashboard 商户级 - 风险阻止交易 - 请在Dashboard查看触发规则
+41201,Client-level Decline list - Card number 商户级 - 拒绝列表 - 卡号
+41202,Client-level Decline list - BIN 商户级 - 拒绝列表 - BIN
+41203,Client-level Decline list - Email address 商户级 - 拒绝列表 - 电子邮件地址
+41204,Client-level Decline list - Phone 商户级 - 拒绝列表 - 电话
+41205,Client-level Decline list - Payment IP 商户级 - 拒绝列表 - 支付 IP
+41206,Client-level Decline list - Email domain 商户级 - 拒绝列表 - 电子邮件域
+41301,Client-level Fraud score exceeds threshold 商户级 - 欺诈分数超过阈值
+42101,Entity-level Risk Blocked Transaction - Please check the triggered rules in Dashboard 主体级 - 风险阻止交易 - 请在Dashboard查看触发规则
+42201,Entity-level Decline list - Card number 主体级 - 拒绝列表 - 卡号
+42202,Entity-level Decline list - BIN 主体级 - 拒绝列表 - BIN
+42203,Entity-level Decline list - Email address 主体级 - 拒绝列表 - 电子邮件地址
+42204,Entity-level Decline list - Phone 主体级 - 拒绝列表 - 电话
+41205,Entity-level Decline list - Payment IP 主体级 - 拒绝列表 - 支付 IP
+42206,Entity-level Decline list - Email domain 主体级 - 拒绝列表 - 电子邮件域
+42301,Entity-level Fraud score exceeds threshold 主体级 - 欺诈分数超过阈值
+43101,Checkout.com-level Potential fraud risk Checkout.com 级 - 潜在欺诈风险
+43102,Checkout.com-level Risk blocked transaction – {Rule group name} Checkout.com 级 - 风险阻止事务 – {规则组名称}
+43201,Checkout.com-level Decline list - Card number Checkout.com 级 - 拒绝列表 - 卡号
+43202,Checkout.com-level Decline list - BIN Checkout.com 级 - 拒绝列表 - BIN
+43203,Checkout.com-level Decline list - Email address Checkout.com 级 - 拒绝列表 - 电子邮件地址
+43204,Checkout.com-level Decline list - Phone Checkout.com 级 - 拒绝列表 - 电话
+43205,Checkout.com-level Decline list - Payment IP Checkout.com 级 - 拒绝列表 - 支付 IP
+43206,Checkout.com-level Decline list - Email domain Checkout.com 级 - 拒绝列表 - 电子邮件域
+43301,Checkout.com-level Fraud score exceeds threshold Checkout.com 级 - 欺诈分数超过阈值
+44301,Checkout.com-level 3DS authentication required Checkout.com 级 - 需要3DS 身份验证
+50001,Card Payout - Compliance error 卡出金 - 合规性错误
+50002,Card Payout - Sanction screening failure 卡出金 - 制裁筛查失败
+50003,Card Payout - Balance reservation insufficient funds 卡出金 - 余额预留资金不足
+50005,Card Payout - Barred Beneficiary Error 卡出金 - 禁止收款人错误
+50020,Card Payout - Recipient error 卡出金 - 收款人错误
+50021,Card Payout - Invalid recipient error 卡出金 - 收款人无效错误
+50022,Card Payout - Unsupported recipient error 卡出金 - 收款人不受支持错误
+50023,Card Payout - Recipient limit error 卡出金 - 收款人限制错误
+50025,Card Payout - Invalid Recipient Account Error 卡出金 - 收款人账户无效错误
+50026,Card Payout - Recipient Account Not Found 卡出金 - 未找到收款人账户
+50027,Card Payout - Recipient Bank Error 卡出金 - 收款人银行错误
+50030,Card Payout - Invalid Recipient Details Error 卡出金 - 收款人详细信息无效错误
+50070,Card Payout - Sender error 卡出金 - 发件人错误
+50100,Card Payout - Instruction error 卡出金 - 指令错误
+50101,Card Payout - Instruction amount limit error 卡出金 - 指令金额限制错误
+50102,Card Payout - Instruction amount limit sender error 卡出金 - 指令金额限制发件人错误
+50103,Card Payout - Instruction amount limit recipient error 卡出金 - 指令金额限制收款人错误
+50104,Card Payout - Velocity limit 卡出金 - 交易频率限制
+50105,Card Payout - Velocity limit sender error 卡出金 - 交易频率限制 发件人错误
+50106,Card Payout - Velocity limit recipient limit error 卡出金 - 交易频率限制 收件人限制错误
+50150,Card Payout - Processing error 卡出金 - 处理错误
+50180,Card Payout - Validation error 卡出金 - 验证错误
+50200,Card Payout - Configuration error 卡出金 - 配置错误
+50240,Card Payout - Cancellation error 卡出金 - 取消错误
+50260,Card Payout - Returned error 卡出金 - 返回错误
+50280,Card Payout - Insufficient funds 卡出金 - 资金不足
+50399,Card Payout - Unmapped response 卡出金 - 未映射响应
+50401,Card Payout - Bank details invalid 卡出金 - 银行详细信息无效
+50402,Card Payout - Account not found 卡出金 - 找不到帐户
+50403,Card Payout - Account inactive 卡出金 - 帐户处于非活动状态
+50404,Card Payout - Account dormant 卡出金 - 账户休眠
+50405,Card Payout - Account number invalid 卡出金 - 账号无效
+50406,Card Payout - Branch not found 卡出金 - 找不到分行
+50407,Card Payout - Branch code invalid 卡出金 - 分行代码无效
+50408,Card Payout - Branch code required 卡出金 - 需要分行代码
+50409,Card Payout - Bank code invalid 卡出金 - 银行代码无效
+50410,Card Payout - Bank code required 卡出金 - 需要银行代码
+50441,Card Payout - Account type required 卡出金 - 需要账户类型
+50451,Card Payout - Account holder details invalid 卡出金 - 帐户持有人详细信息无效
+50452,Card Payout - Account holder identification number required 卡出金 - 需要帐户持有人识别号
+50453,Card Payout - Account holder type not supported 卡出金 - 不支持账户持有人类型
+50454,Card Payout - Account holder type not allowed 卡出金 - 不允许账户持有人类型
+50466,Card Payout - Account closed 卡出金 - 账户关闭
+50471,Card Payout - Account blocked 卡出金 - 帐户被冻结
+50481,Card Payout - Invalid debtor account type 卡出金 - 无效的债务人帐户类型
+50490,Card Payout - Duplicate Payment 卡出金 - 重复付款
+50491,Card Payout - Account holder billing address details incorrect 卡出金 - 帐户持有人账单地址详细信息不正确
+50492,Card Payout - Account holder billing address details required 卡出金 - 需要帐户持有人账单地址详细信息
+50494,Card Payout - Account holder billing address can not be PO box 卡出金 - 账户持有人账单地址不能是邮政信箱
+50499,Card Payout - Payout Returned 卡出金 - 退回的支付
+50501,Card Payout - Unsupported characters 卡出金 - 不支持的字符
+50511,Card Payout - Invalid amount 卡出金 - 无效金额
+50512,Card Payout - Minimum amount not met 卡出金 - 未达到最低金额
+50513,Card Payout - Exceeded transaction value 卡出金 - 超出交易价值
+50514,Card Payout - Exceeded daily limit 卡出金 - 超出每日限额
+50515,Card Payout - Exceeded weekly limit 卡出金 - 超出每周限额
+50517,Card Payout - Exceeded monthly limit 卡出金 - 超出每月限额
+50531,Card Payout - Recalled 卡出金 - 已召回
+50599,Card Payout - Unknown reason 卡出金 - 未知原因
