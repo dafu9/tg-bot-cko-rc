@@ -33,10 +33,9 @@ async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if matched:
         reply_text = "\n\n".join(matched)
-    #else:
-    #    reply_text = default_reply
+        await update.message.reply_text(reply_text)
+    # 没匹配到时什么也不做，不调用 reply_text，避免报错
 
-    await update.message.reply_text(reply_text)
 
 
 def main():
