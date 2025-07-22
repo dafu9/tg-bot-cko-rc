@@ -1,7 +1,11 @@
 import csv
+import os
+from dotenv import load_dotenv  # 新增
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
+# 加载 .env 中的环境变量
+load_dotenv()
 
 # 从 response_codes.csv 读取“Code”与“Message”
 def load_qa_from_csv(filepath):
@@ -36,10 +40,11 @@ async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text(reply_text)
     # 没匹配到时什么也不做，不调用 reply_text，避免报错
 
-
-
 def main():
-    TOKEN = "8114139207:AAF2bx2_Nab1cNYnOZdbb9SCswC__s3sgbE"  # ← 替换为你自己的 Telegram Token
+    TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+    if not TOKEN:
+        raise RuntimeError("❌ 环境变量 TELEGRAM_BOT_TOKEN 未设置")
+
     app = ApplicationBuilder().token(TOKEN).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, auto_reply))
